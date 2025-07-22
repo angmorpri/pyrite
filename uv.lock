@@ -133,7 +133,7 @@ wheels = [
 ]
 
 [[package]]
-name = "pyrite"
+name = "pyritelib"
 version = "0.1.0"
 source = { virtual = "." }
 

@@ -1,5 +1,5 @@
 [project]
-name = "pyrite"
+name = "pyritelib"
 version = "0.1.0"
 description = "Library of various utilities that I use in my programmes."
 readme = "README.md"
@@ -14,8 +14,11 @@ dependencies = []
 ignore = ["F401"]
 
 [dependency-groups]
-dev = [
-    "black>=25.1.0",
-    "pytest>=8.4.1",
-    "ruff>=0.12.4",
-]
+dev = ["black>=25.1.0", "pytest>=8.4.1", "ruff>=0.12.4"]
+
+[project.urls]
+Homepage = "https://github.com/angelmorenoprieto/pyritelib"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pyrite"]
