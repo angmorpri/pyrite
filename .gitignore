@@ -1,0 +1,21 @@
+# Local
+.python-version
+.pytest_cache/
+.vscode/
+notes/
+
+# Program related
+tests/playground/
+**/logs/
+**/*.db
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
